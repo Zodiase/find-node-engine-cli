@@ -9,6 +9,8 @@
     "scripts": {
         "lint": "eslint .",
         "format": "prettier --write '**/*.{js,ts,tsx,json}'",
+        "check-types": "tsc --project ./tsconfig.json --noEmit",
+        "checks": "npm run lint && npm run check-types",
         "build": "tsc -p .",
         "test": "jest"
     },
