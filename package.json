@@ -5,12 +5,16 @@
     "bin": {
         "find-node-engine": "bin/cli"
     },
+    "engines": {
+        "npm": ">=7"
+    },
     "main": "build/findNodeEngine",
     "files": [
         "bin",
         "build"
     ],
     "scripts": {
+        "prepare": "npm run build",
         "lint": "eslint .",
         "format": "prettier --write '**/*.{js,ts,tsx,json}'",
         "check-types": "tsc --project ./tsconfig.json --noEmit",
