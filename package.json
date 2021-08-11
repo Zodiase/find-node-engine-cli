@@ -1,0 +1,35 @@
+{
+    "name": "@xch/find-node-engine",
+    "version": "0.0.1",
+    "description": "Work with nvm to use the node engine version from package.json.",
+    "bin": {
+        "find-node-engine": "bin/cli"
+    },
+    "main": "src/findNodeEngine",
+    "scripts": {
+        "lint": "eslint .",
+        "format": "prettier --write '**/*.{js,ts,tsx,json}'",
+        "build": "tsc -p .",
+        "test": "jest"
+    },
+    "author": "Xingchen Hong <hello@xc-h.com>",
+    "license": "MIT",
+    "repository": "https://github.com/Zodiase/find-node-engine-cli",
+    "prettier": "@xch/prettier-config",
+    "devDependencies": {
+        "@types/jest": "^26.0.24",
+        "@types/semver": "^7.3.8",
+        "@typescript-eslint/eslint-plugin": "^4.29.1",
+        "@typescript-eslint/parser": "^4.29.1",
+        "@xch/prettier-config": "^0.0.1",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-node": "^11.1.0",
+        "prettier": "2.3.2",
+        "ts-jest": "^27.0.4",
+        "ts-node": "^10.2.0"
+    },
+    "dependencies": {
+        "semver": "^7.3.5"
+    }
+}
