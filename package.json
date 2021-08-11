@@ -5,7 +5,11 @@
     "bin": {
         "find-node-engine": "bin/cli"
     },
-    "main": "src/findNodeEngine",
+    "main": "build/findNodeEngine",
+    "files": [
+        "bin",
+        "build"
+    ],
     "scripts": {
         "lint": "eslint .",
         "format": "prettier --write '**/*.{js,ts,tsx,json}'",
@@ -34,6 +38,7 @@
         "typescript": "^4.3.5"
     },
     "dependencies": {
-        "semver": "^7.3.5"
+        "semver": "^7.3.5",
+        "tslib": "^2.3.0"
     }
 }
