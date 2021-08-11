@@ -1,4 +1,6 @@
-# `find-node-engine`
+**`find-node-engine`**
+
+![Tests](https://github.com/Zodiase/find-node-engine-cli/actions/workflows/tests.yml/badge.svg)
 
 ## Install
 
