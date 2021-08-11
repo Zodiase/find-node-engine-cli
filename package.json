@@ -1,6 +1,6 @@
 {
     "name": "@xch/find-node-engine",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Work with nvm to use the node engine version from package.json.",
     "bin": {
         "find-node-engine": "bin/cli"
